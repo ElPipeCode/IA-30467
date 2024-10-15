@@ -43,5 +43,12 @@ namespace MILWY
             this.Hide(); //oculta la forma actual
             Cambio.Show(); // muestra la forma2
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Interfaz Cambio = new Interfaz();
+            this.Hide(); //oculta la forma actual
+            Cambio.Show(); // muestra la forma2
+        }
     }
 }
